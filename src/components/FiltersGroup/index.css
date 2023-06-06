@@ -1,0 +1,43 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.ul {
+  list-style-type: none;
+}
+.h1 {
+  font-size: 15px;
+}
+.li {
+  margin-left: 0px;
+}
+.p {
+  margin-right: 50px;
+  border: 0px solid transparent;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+.im {
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 2px;
+}
+.pa {
+  display: flex;
+}
+.but {
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  background-color: white;
+}
